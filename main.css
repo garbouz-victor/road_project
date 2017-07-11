@@ -1,0 +1,12 @@
+.dropdown-content {
+    display: none;
+}
+.dropdown:hover .dropdown-content  {
+    display: block;
+}
+.menu {
+    width: 30%;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: black;
+}
