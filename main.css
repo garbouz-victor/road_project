@@ -1,12 +1,29 @@
 .dropdown-content {
     display: none;
 }
+
 .dropdown:hover .dropdown-content  {
     display: block;
 }
+
 .menu {
     width: 30%;
     border-right-width: 2px;
     border-right-style: solid;
     border-right-color: black;
+}
+
+.main-list {
+    list-style-type: none;
+}
+
+span.list-item {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+#S-1-1 {    
+    width: 77px;
+    height: 77px;    
+    background: url(Images/images/1.jpg) 0 0;
 }
