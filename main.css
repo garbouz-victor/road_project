@@ -22,8 +22,31 @@ span.list-item {
     font-style: italic;
 }
 
-#S-1-1 {    
+/*#S-1-1 {    
     width: 77px;
     height: 77px;    
     background: url(Images/images/1.jpg) 0 0;
+}*/
+
+/*#testS-1-1 {
+    position: relative;
+}*/
+
+#testS-1-1 li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+/*    position: absolute;*/
+    top: 0;
+}
+
+#testS-1-1 li {
+    height: 77px;
+    display: block;
+}
+
+#S-1-1 {    
+    left: 0px;
+    width: 75px;    
+    background: url('Images/images/1.jpg') 0 0;
 }
